@@ -6,33 +6,33 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin: 0;
   padding: 2rem;
+  margin: 0;
   font-family: $font-family-sans-serif;
   font-size: 16px;
   line-height: 24px;
-  background-color: $uoc-bg;
   color: $uoc-corporate;
+  background-color: $uoc-bg;
 }
 
 .uoc-container {
   max-width: 800px;
-  margin: auto;
   padding: 2rem;
-  border-radius: 2rem;
+  margin: auto;
   text-align: center;
   background-color: #fff;
+  border-radius: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .uoc-logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
   max-width: 200px;
   height: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
 
   @media (min-width: $mqMinWidth) {
     max-width: none;
