@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
+  "name": "smansori_cv",
   "version": "3.5.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "CV for Sara Mansori",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -27,8 +27,8 @@
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Sara Mansori",
+    "email": "sara.mansori@uoc.edu"
   },
   "license": "MIT",
   "bugs": {

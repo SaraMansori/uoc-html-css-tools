@@ -3,55 +3,39 @@
 }
 
 body {
+  margin: 0;
+  margin: auto;
+  font-family: $font-family-sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: $body;
+  background-color: $bg-dark;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+main {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  padding: 2rem;
-  margin: 0;
-  font-family: $font-family-sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  color: $uoc-corporate;
-  background-color: $uoc-bg;
-}
-
-.uoc-container {
-  max-width: 800px;
-  padding: 2rem;
+  gap: 2rem;
+  width: 50vw;
   margin: auto;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.uoc-logo {
-  display: block;
-  max-width: 200px;
-  height: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
-  margin-left: auto;
-
-  @media (min-width: $mqMinWidth) {
-    max-width: none;
-  }
-}
-
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: $uoc-corporate;
-
-  @media (min-width: $mqMinWidth) {
-    font-size: 36px;
-  }
-}
-
-.uoc-footer {
-  margin-top: 1.5rem;
-  font-size: 0.75rem;
-  text-align: center;
+  margin-bottom: 4rem;
 }

@@ -18,12 +18,15 @@
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
 
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
 /**
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
-
 @import "layouts/home";
+@import "layouts/header";
+@import "layouts/cv";
+@import "layouts/footer";
 
 /**
  * Do NOT include anything else in this file!
