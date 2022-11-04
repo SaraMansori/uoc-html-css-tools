@@ -17,13 +17,13 @@
     flex-direction: column;
     gap: 1rem;
     &__text {
-      font-size: 32px;
+      font-size: $size-xl;
       &-light {
-        font-size: 20px;
+        font-size: $size-lg;
         font-weight: 400;
       }
       &-bold {
-        font-size: 32px;
+        font-size: $size-xl;
         font-weight: 700;
         color: $primary;
         text-transform: uppercase;
@@ -34,7 +34,7 @@
   &__links {
     display: flex;
     gap: 1rem;
-    align-items: center;
+    align-items: baseline;
   }
 
   &__link,
@@ -52,9 +52,14 @@
     display: flex;
     padding: 0.7rem;
     color: $bg-dark;
-    cursor: default;
+    cursor: pointer;
     background-color: $body;
     border-radius: 10px;
+    &:hover {
+      color: $body;
+      background-color: $bg-semidark;
+      transition: 0.3s;
+    }
   }
 }
 
